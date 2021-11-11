@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{be505d70-91d3-424b-a445-5685d22f485c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{9a89f799-d7bf-47b8-bd87-315d3c7d0d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nature">
+      <UniqueIdentifier>{0f811c27-ef1a-4c7a-a33d-6b4890e9f741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="level3DRender">
+      <UniqueIdentifier>{c0dd323f-9775-4217-8178-9ab457df52bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="level2DRender">
+      <UniqueIdentifier>{f1c1e7b1-a2da-4466-a50a-8201c631849c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision">
+      <UniqueIdentifier>{82315e07-0f58-4477-a304-86ab70241d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{91130330-71ee-4430-980d-034ff3f51553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\postEffect">
+      <UniqueIdentifier>{3639925d-25c5-4b17-ba6c-de9ae59e9e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\preRender">
+      <UniqueIdentifier>{143cc97d-283c-4f50-a159-430f487221d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbg">
+      <UniqueIdentifier>{da4adfd3-066d-493e-8ff5-83d0147f941e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="graphics\ModelRender.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="k2EnginePreCompile.cpp" />
+    <ClCompile Include="graphics\SpriteRender.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\FontRender.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\RenderingEngine.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\CameraCollisionSolver.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\SpringCamera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="nature\SkyCube.cpp">
+      <Filter>nature</Filter>
+    </ClCompile>
+    <ClCompile Include="level3DRender\LevelRender.cpp">
+      <Filter>level3DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="level3DRender\MapChipRender.cpp">
+      <Filter>level3DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="level2DRender\Level2DRender.cpp">
+      <Filter>level2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="level2DRender\MapChip2DRender.cpp">
+      <Filter>level2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\CollisionObject.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\SceneLight.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\Ssao.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\Ssr.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\ToneMap.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\Bloom.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\Dof.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\Fxaa.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\PostEffect.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\preRender\ShadowMapRender.cpp">
+      <Filter>graphics\preRender</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\preRender\CascadeShadowMapMatrix.cpp">
+      <Filter>graphics\preRender</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\preRender\LightCulling.cpp">
+      <Filter>graphics\preRender</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\postEffect\PostEffectComponentBase.cpp">
+      <Filter>graphics\postEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\GeometryData.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="k2Engine.cpp" />
+    <ClCompile Include="geometry\SceneGeometryData.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\preRender\CalcAnimatedVertex.cpp" />
+    <ClCompile Include="dbg\dbgVectorRenderer.cpp">
+      <Filter>dbg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphics\ModelRender.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="k2EnginePreCompile.h" />
+    <ClInclude Include="graphics\SpriteRender.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\FontRender.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\MyRenderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\RenderingEngine.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\CameraCollisionSolver.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\SpringCamera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="nature\SkyCube.h">
+      <Filter>nature</Filter>
+    </ClInclude>
+    <ClInclude Include="level3DRender\LevelRender.h">
+      <Filter>level3DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="level3DRender\MapChipRender.h">
+      <Filter>level3DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="level2DRender\MapChip2DRender.h">
+      <Filter>level2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="level2DRender\Level2DRender.h">
+      <Filter>level2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\IRenderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionObject.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SceneLight.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\Ssao.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\Ssr.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\ToneMap.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\Bloom.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\Dof.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\Fxaa.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\PostEffect.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\preRender\ShadowMapRender.h">
+      <Filter>graphics\preRender</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\preRender\CascadeShadowMapMatrix.h">
+      <Filter>graphics\preRender</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\preRender\LightCulling.h">
+      <Filter>graphics\preRender</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\postEffect\PostEffectComponentBase.h">
+      <Filter>graphics\postEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\GeometryData.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="k2Engine.h" />
+    <ClInclude Include="geometry\SceneGeometryData.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\preRender\CalcAnimatedVertex.h" />
+    <ClInclude Include="dbg\dbgVectorRenderer.h">
+      <Filter>dbg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
