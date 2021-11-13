@@ -3,4 +3,4 @@
 
 © Unity Technologies Japan/UCL
 
-動く床のサンプル
+ミニマップのサンプル
